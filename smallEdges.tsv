@@ -1,0 +1,15 @@
+#edges for graph of letters
+# E -> C is 2
+# A -> C is 2
+# A -> D -> C is 5
+# G -> F is 5
+
+A	B
+B	C
+B	D
+D	B
+D	E
+E	D
+E	F
+F	C
+G	A

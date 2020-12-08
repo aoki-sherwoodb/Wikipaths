@@ -1,0 +1,31 @@
+# Links between household objects
+# Links exist if the objects would be found in the same room
+# Fridge -> Chair should be 1
+# Fridge -> Desk should be 2
+# Bed -> Oven should be 3
+
+Fridge  Oven
+Fridge  Chair
+Fridge  Table
+Fridge  Toaster
+Chair Table
+Chair Couch
+Chair Desk
+Chair Bed
+Bed Chair
+Bed Desk
+Table Chair
+Table Oven
+Table Toaster
+Table Fridge
+Couch Chair
+Oven  Fridge
+Oven  Toaster
+Oven  Table
+Oven  Chair
+Toaster Oven
+Toaster Table
+Toaster Fridge
+Toaster Chair
+Desk  Chair
+Desk  Bed
